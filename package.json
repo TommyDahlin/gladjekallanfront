@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://TommyDahlin.github.io/gladjekallan/src/index.html",
+  "homepage": "https://TommyDahlin.github.io/gladjekallanfront",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
