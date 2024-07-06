@@ -24,3 +24,13 @@
     margin-right: 200px;
     border-radius: 50%;
 }
+
+@media screen and (max-width: 844px){
+    .header-container img {
+        align-items: end;
+        scale: 50%;
+        margin-left: 9rem;
+        margin-bottom: 4rem;
+    }
+    
+}

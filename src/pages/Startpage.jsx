@@ -2,7 +2,6 @@ import "./Startpage.css";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Familytransparent from "../assets/family-transparent.png";
-import Logo from "../assets/logo.png";
 const Startpage = () => {
     return (
         <>

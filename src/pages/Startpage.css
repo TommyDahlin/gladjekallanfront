@@ -41,7 +41,20 @@
 
 @media screen and (max-width: 768px) {
     .family-image {
-        max-width: 75%;
+        max-width: 100%;
+    }
+    .startpage-text {
+        flex-direction: column;
+    }
+    .startpage-text p {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+    .startpage-logo-text h1{
+        font-size: 4rem;
+    }
+    .startpage-container {
+        margin-top: 0;
     }
     
 }
