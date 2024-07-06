@@ -25,8 +25,9 @@ form{
   margin-top: 20px;
 }
 @media screen and (max-width: 768px) {
-  .contact-container {
+  .contact-holder {
     margin-top: 0;
+    display: block;
   }
   
 }

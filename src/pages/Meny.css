@@ -1,5 +1,4 @@
 .meny-container{
- 
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin: 1rem;
@@ -68,10 +67,33 @@ h2{
 }
 .MENY {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 2rem;
+    font-size: 5rem;
     font-weight: bolder;
-    color: #000;
+    color: #ff4545;
+    text-emphasis-color: #000;
     text-decoration: none;
     margin: 1rem;
     text-align: center;
+    -webkit-text-stroke: 1px #000;
+}
+@media screen and (max-width: 768px) {
+    .meny-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: -3px;
+    }
+    .meny-image {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .meny-type {
+        display: flex;
+        flex-direction: column;
+    }
+    .meny-list {
+        margin-left: -2rem;
+        text-align: center;
+    }
+    
 }
