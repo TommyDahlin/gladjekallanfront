@@ -22,7 +22,7 @@ const Kontakt = () => {
             </p>
         </div>
         <div className="contact-container-form">
-        <form action="https://formsubmit.co/tommydahlin95@outlook.com" method="Post">
+        <form action="https://formsubmit.co/niclas@slakthusetskottbod.se" method="Post">
             <label for="fname">Förnamn</label>
             <input className="contact-form" type="text" id="FullName" name="fullname" placeholder="Ditt namn.."/>
             <label for="email">Email</label>
@@ -32,7 +32,16 @@ const Kontakt = () => {
             <input className="contact-form" type="submit" value="Skicka"/>
         </form>
         </div>
-
+            <div className="event-container">
+            <h2>Events</h2>
+            <p>Vi tar:</p>
+            <p><br/>350kr i timmen<br/></p>
+            <p><br/>90kr per hamburgare<br/></p>
+            <p>15kr för dricka</p>
+            <p><br/>Gratis utkörning inom Göteborg.</p>
+            <p>Utanför Göteborg 50kr per mil.</p>
+            <p><br/>Detta är utan moms.</p>
+            </div>
         </div>
             <Footer/>
         </>

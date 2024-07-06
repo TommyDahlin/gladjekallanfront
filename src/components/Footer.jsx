@@ -8,7 +8,7 @@ const Footer = () => {
         <Link to ="/"><p>Hem</p></Link>
         <Link to ="/omoss"><p>Om oss</p></Link>
         <Link to ="/meny"><p>Meny</p></Link>
-        <Link to ="/kontakt"><p>Kontakt</p></Link>
+        <Link to ="/kontakt"><p>Kontakt / Events</p></Link>
         </nav>
         <br/>
         <p>© 2024 Glädjekällans foodtruck</p>
