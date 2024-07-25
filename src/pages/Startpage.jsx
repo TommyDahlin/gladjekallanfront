@@ -13,7 +13,9 @@ const Startpage = () => {
         <h1>Välkommen!</h1>
         </div>
         <div className="startpage-text">
-        <p><br/>Vi är en familjeägd foodtruck som serverar mat med kärlek och glädje.<br/>Vi finns i Göteborg och tar oss gärna till erat event för att tillhandahålla era matbehov.<br/>Håll utkik på vår hemsida för att se var vi befinner oss just nu!</p>
+        <p><br/>Vi är en familjeägd foodtruck som serverar mat med kärlek och glädje.
+        <br/>Vi finns i Göteborg och tar oss gärna till erat event för att tillhandahålla era matbehov.
+        <br/>Håll utkik på vår hemsida för att se var vi befinner oss just nu! <br/><br/>Foodtrucken står vid fiskeauktionen. <br/> Öppettider: Tisdag-Fredag <br/> 05:00-12:00</p>
         <img src={Familytransparent} alt="family" className="family-image"></img>
         </div></div>        
 
