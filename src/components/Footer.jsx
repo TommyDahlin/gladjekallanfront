@@ -15,7 +15,7 @@ const Footer = () => {
           <p>Meny</p>
         </Link>
         <Link to="/kontakt">
-          <p>Kontakt / Events / <br/>Företagsevents</p>
+          <p>Kontakt / Events / Företagsevents</p>
         </Link>
       </nav>
       <br />
