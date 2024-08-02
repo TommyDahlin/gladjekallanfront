@@ -74,6 +74,10 @@ const Kontakt = () => {
               Alla priser är exkl. moms.
             </p>
 
+            </div>
+            <div className="img-text">
+            <img src = {Breakfast} alt="breakfast"></img>
+            
             <h2>Event Privatperson</h2>
             <p>Priser: </p>
             <p>
@@ -86,8 +90,6 @@ const Kontakt = () => {
             </p>
             <p>Alla priser inkl. moms.</p>
             </div>
-            <img src = {Breakfast} alt="breakfast"/>
-
             </div>
           <div className="contact-container-form">
             <h2> Kontakta oss!</h2>
