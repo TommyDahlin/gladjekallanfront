@@ -10,7 +10,8 @@ const Hamburger = () => {
       <span></span>
       <ul class="menuItem">
         <li><Link to="/"> Startsida </Link></li>
-        <li><Link to ='/omoss'> Om oss</Link></li>
+        {//<li><Link to ='/omoss'> Om oss</Link></li>
+        }
         <li><Link to ="/meny">Meny</Link></li>
         <li><Link to ="/kontakt">Kontakt / Events</Link></li>
       </ul>

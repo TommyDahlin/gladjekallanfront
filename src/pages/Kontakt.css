@@ -32,6 +32,8 @@
   max-width: 400px;
 }
 .contact-holder {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 20px;
@@ -68,6 +70,8 @@ form {
   }
   .event-container {
     margin-left: 0;
+    display: flex;
+    flex-direction: column;
   }
   .contact-image {
     display: none;

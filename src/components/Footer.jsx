@@ -8,9 +8,9 @@ const Footer = () => {
         <Link to="/">
           <p>Hem</p>
         </Link>
-        <Link to="/omoss">
+        {/*<Link to="/omoss">
           <p>Om oss</p>
-        </Link>
+        </Link>*/}
         <Link to="/meny">
           <p>Meny</p>
         </Link>

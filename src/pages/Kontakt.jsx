@@ -83,6 +83,9 @@ const Kontakt = () => {
             <p>
               <br />
               Från 149 kr / person.{" "}
+              <br />
+              200g Högrevsburgare.
+              1 Dricka.
             </p>
             <p>
               <br />
