@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import burger from "../assets/hamruger.webp";
-import kycklingrulle from "../assets/kycklingrulle.jpeg";
+import burger from "../assets/niclasburger.jpg";
+import kycklingrulle from "../assets/Kycklingrulle - Copy.jpg";
 import "./Meny.css";
 const Meny = () => {
     return (

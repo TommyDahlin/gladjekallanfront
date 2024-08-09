@@ -13,7 +13,7 @@
     flex-direction: space-between;
     justify-content: center;
 }
-a:any-link {
+.link-container a:any-link {
     font-size: 1.5rem;
     margin: 0 10px 0 10px;
     text-decoration: none;
