@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 //Pages
-import Startpage   from "./pages/Startpage";
-import About from "./pages/About";
-import Meny from "./pages/Meny";
-import Kontakt from "./pages/Kontakt";
+import Startpage   from "./Startpage";
+import About from "./About";
+import Meny from "./Meny";
+import Kontakt from "./Kontakt";
 import './App.css';
 
 function App() {
