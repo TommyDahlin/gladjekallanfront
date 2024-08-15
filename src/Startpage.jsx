@@ -29,7 +29,7 @@ const Startpage = () => {
               <a href="https://maps.app.goo.gl/bQEDBA7ZEgQeonTW9">
                 <img src={Position} alt="position" className="position-image" />
               </a>{" "}
-              <br /> Öppettider: Tisdag-Fredag <br /> 05:00-12:00
+              <br /> Öppettider: Tisdag-Fredag <br /> 05:00-13:00
             </p>
             <img
               src={Familytransparent}
