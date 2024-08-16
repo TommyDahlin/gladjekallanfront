@@ -1,99 +1,104 @@
-.meny-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 1rem;
-    border: 2px solid black;
-    border-radius: 1rem;
-    box-shadow: 5px 5px 5px 5px #380808;
-    background: rgb(195,86,34);
-    background: linear-gradient(0deg, rgb(236, 148, 107) 0%, rgba(255,211,191,1) 100%); 
-    text-align: center;
+.meny-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 1rem;
+  border: 2px solid black;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 5px 5px #380808;
+  background: rgb(195, 86, 34);
+  background: linear-gradient(
+    0deg,
+    rgb(250, 164, 124) 0%,
+    rgba(255, 211, 191, 1) 100%
+  );
+  text-align: center;
 }
-.meny-price{
-    font-size: 1.5rem;
-    font-weight: 800;
-    color: #000;
+.meny-container img {
+  width: 90%;
+}
+.meny-price {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #000;
 }
 .meny-type {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .sausage-type {
-    text-align: center;
-    font-size: 1.5rem;
-    margin-bottom: -1rem;
-    margin-top: -1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: -1rem;
+  margin-top: -1rem;
 }
-h2{
-    font-size: 2rem;
-    font-weight: 700;
-    color: #000;
-    text-align: center;
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
 }
 .dryck-container {
-    
-    justify-content: flex-start;
+  justify-content: flex-start;
 }
 
 .meny-item {
-    list-style: none;
+  list-style: none;
 }
 .meny-title {
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 650;
-    color: orangered;
-    -webkit-text-stroke: 1px black;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 650;
+  color: orangered;
+  -webkit-text-stroke: 1px black;
 }
 .meny-name {
-    text-decoration: underline;
-    font-size: 2rem;
-    font-weight: bold;
-    color: red;
+  text-decoration: underline;
+  font-size: 2rem;
+  font-weight: bold;
+  color: red;
 }
-.dryck-part{
-    display: grid;
+.dryck-part {
+  display: grid;
 }
-.meny-image
-{
-    border-radius: 2%;
-    max-width: 600px;
-    max-height: 400px;
+.meny-image {
+  border-radius: 2%;
+  max-width: 600px;
+  max-height: 400px;
 }
 .meny-description {
-    font-size: 1.5rem;
-    color: black;
-    font-weight: 600;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 600;
 }
 .MENY {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 5rem;
-    font-weight: bolder;
-    color: #ff4545;
-    text-emphasis-color: #000;
-    text-decoration: none;
-    margin: 1rem;
-    text-align: center;
-    -webkit-text-stroke: 1px #000;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 5rem;
+  font-weight: bolder;
+  color: #ff4545;
+  text-emphasis-color: #000;
+  text-decoration: none;
+  margin: 1rem;
+  text-align: center;
+  -webkit-text-stroke: 1px #000;
 }
 @media screen and (max-width: 768px) {
-    .meny-container {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin-left: -3px;
-    }
-    .meny-image {
-        max-width: 100%;
-        max-height: 100%;
-    }
-    .meny-type {
-        display: flex;
-        flex-direction: column;
-    }
-    .meny-list {
-        margin-left: -2rem;
-        text-align: center;
-    }
-    
+  .meny-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: -3px;
+  }
+  .meny-image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .meny-type {
+    display: flex;
+    flex-direction: column;
+  }
+  .meny-list {
+    margin-left: -2rem;
+    text-align: center;
+  }
 }
