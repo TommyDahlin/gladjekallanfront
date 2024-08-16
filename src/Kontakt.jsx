@@ -11,7 +11,7 @@ const Kontakt = () => {
         <div className="contact-holder">
           <div className="contact-container">
             <div className="contact-image">
-              <img src={BurgerMaking} alt="test"></img>
+              <img src={BurgerMaking} alt="burgermaking"></img>
             </div>
             <div className="contact-container-text">
               <h1>Kontakt</h1>
@@ -75,7 +75,7 @@ const Kontakt = () => {
               </p>
             </div>
             <div className="img-text">
-              <img src={Breakfast} alt="breakfast"></img>
+              <img src={Breakfast} alt="breakfast" className="breakfast"></img>
 
               <h2>Event Privatperson</h2>
               <p>Priser: </p>
