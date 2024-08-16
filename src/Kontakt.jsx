@@ -7,7 +7,7 @@ const Kontakt = () => {
   return (
     <>
       <Header />
-      <div classname="contactbody">
+      <div className="contactbody">
         <div className="contact-holder">
           <div className="contact-container">
             <div className="contact-image">
@@ -97,7 +97,7 @@ const Kontakt = () => {
               action="https://formsubmit.co/niclas@slakthusetskottbod.se"
               method="Post"
             >
-              <label for="fname">Förnamn</label>
+              <label htmlFor="fname">Förnamn</label>
               <input
                 className="contact-form"
                 type="text"
@@ -105,7 +105,7 @@ const Kontakt = () => {
                 name="fullname"
                 placeholder="Ditt namn.."
               />
-              <label for="email">Email</label>
+              <label htmlFor="email">Email</label>
               <input
                 className="contact-form"
                 type="email"
@@ -113,7 +113,7 @@ const Kontakt = () => {
                 name="email"
                 placeholder="Din email.."
               />
-              <label for="subject">Meddelande</label>
+              <label htmlFor="subject">Meddelande</label>
               <textarea
                 className="contact-form"
                 id="subject"

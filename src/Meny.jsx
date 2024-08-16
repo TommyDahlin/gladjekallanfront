@@ -29,21 +29,19 @@ const Meny = () => {
                 <li className="meny-item">
                   <div className="meny-name">Högrevs burgare med bröd</div>
                   <div className="meny-price"> 90kr</div>
-
-                  <li className="meny-item">
-                    <div className="meny-name">Halloumi burger meny</div>
-                    <div className="meny-description">
-                      Burgare, pommes, dryck
-                    </div>
-                    <div className="meny-price"> 110kr</div>
-                  </li>
-
-                  <li className="meny-item">
-                    <div className="meny-name">Halloumi burgare med bröd</div>
-                    <div className="meny-description">Friterad halloumi</div>
-                    <div className="meny-price"> 90kr</div>
-                  </li>
                 </li>
+                <li className="meny-item">
+                  <div className="meny-name">Halloumi burger meny</div>
+                  <div className="meny-description">Burgare, pommes, dryck</div>
+                  <div className="meny-price"> 110kr</div>
+                </li>
+
+                <li className="meny-item">
+                  <div className="meny-name">Halloumi burgare med bröd</div>
+                  <div className="meny-description">Friterad halloumi</div>
+                  <div className="meny-price"> 90kr</div>
+                </li>
+
                 <li className="meny-item">
                   <div className="meny-name">Politikern</div>
                   <div className="meny-description">
