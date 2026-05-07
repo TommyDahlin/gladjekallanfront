@@ -77,7 +77,7 @@ const Meny = () => {
                   />
                   <div className="meny-name">{t("menu.items.hogrevMenu.name")}</div>
                   <div className="meny-description">{t("menu.items.hogrevMenu.desc")}</div>
-                  <div className="meny-price">{priceText(110)}</div>
+                  <div className="meny-price">{priceText(120)}</div>
                 </li>
 
                 <li className="meny-item">
@@ -87,7 +87,7 @@ const Meny = () => {
                 <li className="meny-item">
                   <div className="meny-name">{t("menu.items.halloumiMenu.name")}</div>
                   <div className="meny-description">{t("menu.items.halloumiMenu.desc")}</div>
-                  <div className="meny-price">{priceText(110)}</div>
+                  <div className="meny-price">{priceText(120)}</div>
                 </li>
 
                 <li className="meny-item">
