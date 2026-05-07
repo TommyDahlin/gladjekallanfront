@@ -123,6 +123,49 @@
   text-decoration: underline;
 }
 
+.social-follow-card {
+  background: #121212;
+  border: 1px solid rgba(232, 146, 26, 0.4);
+  border-radius: 10px;
+  padding: 1rem;
+  max-width: 360px;
+}
+
+.social-follow-card h3 {
+  margin: 0 0 0.4rem;
+  font-family: 'Oswald', system-ui, sans-serif;
+  color: var(--accent, #e8921a);
+  letter-spacing: 0.04em;
+}
+
+.social-follow-card p {
+  margin: 0 0 0.8rem;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.social-follow-links {
+  display: flex;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+}
+
+.social-follow-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: #111 !important;
+  background: var(--accent, #e8921a);
+  border-radius: 999px;
+  padding: 0.35rem 0.8rem;
+  font-weight: 700;
+  text-decoration: none !important;
+}
+
+.social-follow-link:hover {
+  background: #f1a230;
+}
+
 a:any-link {
   color: inherit;
   text-decoration: none;
@@ -167,6 +210,10 @@ a:any-link {
   .startpage-text {
     flex-direction: column;
     padding: 1.5rem;
+  }
+
+  .social-follow-card {
+    max-width: 100%;
   }
 
   .family-image-wrap {

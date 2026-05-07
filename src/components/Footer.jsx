@@ -1,25 +1,29 @@
 import "./footer.css";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+
 const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="footer-container">
       <br />
       <nav className="link-container">
         <Link to="/">
-          <p>Hem</p>
+          <p>{t("nav.home")}</p>
         </Link>
         {/*<Link to="/omoss">
           <p>Om oss</p>
         </Link>*/}
         <Link to="/meny">
-          <p>Meny</p>
+          <p>{t("nav.menu")}</p>
         </Link>
         <Link to="/kontakt">
-          <p>Kontakt / Events / Företagsevents</p>
+          <p>{t("nav.contactEventsCompany")}</p>
         </Link>
       </nav>
       <br />
-      <p>© 2024 Glädjekällans foodtruck</p>
+      <p>{t("footer.copyright")}</p>
     </div>
   );
 };

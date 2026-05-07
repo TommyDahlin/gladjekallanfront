@@ -11,35 +11,39 @@ import ChickenWrap from "./assets/kycklingrulle.jpeg";
 import Breakfast from "./assets/Frukost.jpg";
 import SausageAndFries from "./assets/KorvOPommes.jpg";
 import { Link } from "react-router-dom";
+import { Trans, useTranslation } from "react-i18next";
+import { FaFacebookF, FaInstagram } from "react-icons/fa";
 
 const galleryImages = [
   {
     src: BurgerPlate,
-    alt: "Burger plate from Gladjekallans Foodtruck",
+    altKey: "startpage.galleryAlts.burgerPlate",
   },
   {
     src: HalloumiBurger,
-    alt: "Halloumi burger from Gladjekallans Foodtruck",
+    altKey: "startpage.galleryAlts.halloumiBurger",
   },
   {
     src: NiclasBurger,
-    alt: "Cheeseburger from Gladjekallans Foodtruck",
+    altKey: "startpage.galleryAlts.cheeseburger",
   },
   {
     src: ChickenWrap,
-    alt: "Chicken wrap from Gladjekallans Foodtruck",
+    altKey: "startpage.galleryAlts.chickenWrap",
   },
   {
     src: Breakfast,
-    alt: "Breakfast plate from Gladjekallans Foodtruck",
+    altKey: "startpage.galleryAlts.breakfast",
   },
   {
     src: SausageAndFries,
-    alt: "Sausage and fries from Gladjekallans Foodtruck",
+    altKey: "startpage.galleryAlts.sausageFries",
   },
 ];
 
 const Startpage = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <Header />
@@ -49,48 +53,81 @@ const Startpage = () => {
             <div className="family-image-wrap">
               <img
                 src={Familytransparent}
-                alt="Gladjekallans Foodtruck family"
+                alt={t("startpage.galleryAlts.family")}
                 className="family-image"
               ></img>
             </div>
             <div className="hero-branding">
               <img
                 src={Logo}
-                alt="Glädjekällans Foodtruck logo"
+                alt={t("startpage.galleryAlts.logo")}
                 className="hero-logo"
               />
-              <h1>Glädjekällans Foodtruck</h1>
-              <p>Street food med hjärta, värme och smak.</p>
+              <h1>{t("startpage.title")}</h1>
+              <p>{t("startpage.subtitle")}</p>
             </div>
           </div>
 
           <div className="startpage-text">
             <p>
-              Vi är en familjeägd foodtruck som serverar mat med kärlek och
-              glädje. Vi finns i Göteborg och tar oss gärna till erat{" "}
-              <Link to="/kontakt" className="eventlink">
-                event
-              </Link>{" "}
-              för att tillhandahålla era mat och catering behov.
-            </p>
-            
-            <p>
-              {" "}
-              Öppettider: <br /> Tisdag-Fredag <br /> 05:00-13:00
+              <Trans
+                i18nKey="startpage.intro"
+                components={{
+                  eventLink: <Link to="/kontakt" className="eventlink" />,
+                }}
+              />
             </p>
 
             <p>
-              Foodtrucken står vid fiskeauktionen.
-              <a href="https://maps.app.goo.gl/bQEDBA7ZEgQeonTW9" className="map-holder">
-                <img src={Position} alt="position" className="position-image" />
+              {t("startpage.openingHours")} <br /> {t("startpage.weekdays")} <br />
+              {t("startpage.truckHours")}
+            </p>
+
+            <p>
+              {t("startpage.locationText")}
+              <a
+                href="https://maps.app.goo.gl/bQEDBA7ZEgQeonTW9"
+                className="map-holder"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={Position}
+                  alt={t("startpage.mapAlt")}
+                  className="position-image"
+                />
               </a>{" "}
             </p>
-            
+
+            <div className="social-follow-card">
+              <h3>{t("startpage.socialTitle")}</h3>
+              <p>{t("startpage.socialHint")}</p>
+              <div className="social-follow-links">
+                <a
+                  href="https://www.instagram.com/gladjekallans_foodtruck/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="social-follow-link"
+                >
+                  <FaInstagram aria-hidden="true" />
+                  <span>{t("startpage.socialInstagram")}</span>
+                </a>
+                <a
+                  href="https://www.facebook.com/p/Gl%C3%A4djek%C3%A4llans-Foodtruck-100082006564608/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="social-follow-link"
+                >
+                  <FaFacebookF aria-hidden="true" />
+                  <span>{t("startpage.socialFacebook")}</span>
+                </a>
+              </div>
+            </div>
           </div>
-          <section className="food-gallery" aria-label="Galleri med matbilder">
+          <section className="food-gallery" aria-label={t("startpage.galleryLabel")}>
             {galleryImages.map((image) => (
               <figure className="food-gallery-item" key={image.src}>
-                <img src={image.src} alt={image.alt} loading="lazy" />
+                <img src={image.src} alt={t(image.altKey)} loading="lazy" />
               </figure>
             ))}
           </section>
