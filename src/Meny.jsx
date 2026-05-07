@@ -9,6 +9,25 @@ const Meny = () => {
       <Header />
       <h1 className="MENY">Meny</h1>
       <h2> Alla Burgare & Korv kan tillagas med glutenfritt bröd!</h2>
+      <h3>
+        Dagens meny: 120kr, to know what dagens is go to our{" "}
+        <a
+          href="https://www.instagram.com/gladjekallans_foodtruck/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Instagram
+        </a>{" "}
+        or{" "}
+        <a
+          href="https://www.facebook.com/p/Gl%C3%A4djek%C3%A4llans-Foodtruck-100082006564608/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Facebook
+        </a>
+        .
+      </h3>
 
       <div className="meny-container">
         <div className="meny-part">
@@ -112,21 +131,7 @@ const Meny = () => {
                 Bröd, Kyckling, Sallad, Rå Lök, <br /> Picklad Lök, Jalapeño,
                 Tomat, Valfri sås
               </div>
-              <div className="meny-price"> 90kr</div>
-            </li>
-
-            <li className="meny-item">
-              <div className="meny-name">Hel Special</div>
-              <div className="meny-description">
-                2 Korvar, Bröd, Mos <br />
-              </div>
-              <div className="meny-price"> 80kr</div>
-            </li>
-
-            <li className="meny-item">
-              <div className="meny-name">Halv Special</div>
-              <div className="meny-description">1 Korv, Bröd, Mos </div>
-              <div className="meny-price"> 70kr</div>
+              <div className="meny-price"> 100kr</div>
             </li>
 
             <li className="meny-item">
@@ -159,19 +164,15 @@ const Meny = () => {
             </li>
             <li className="meny-item">
               <div className="meny-name">Tjock Korv med bröd</div>
-              <div className="meny-price"> 35kr</div>
+              <div className="meny-price"> 40kr</div>
             </li>
             <li className="meny-item">
               <div className="meny-name">Smal Korv med bröd</div>
-              <div className="meny-price"> 25kr</div>
+              <div className="meny-price"> 30kr</div>
             </li>
             <li className="meny-item">
               <div className="meny-name">Pommes Tallrik</div>
-              <div className="meny-price"> 30kr</div>
-            </li>
-            <li className="meny-item">
-              <div className="meny-name">Mos Tallrik</div>
-              <div className="meny-price"> 30kr</div>
+              <div className="meny-price"> 40kr</div>
             </li>
           </ul>
         </div>
