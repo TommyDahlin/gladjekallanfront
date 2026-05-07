@@ -8,7 +8,6 @@ import "./App.css";
 
 function App() {
   return (
-    <>
       <div className="app-container">
         <BrowserRouter basename={import.meta.env.BASE_URL}>
           <Routes>
@@ -19,7 +18,6 @@ function App() {
           </Routes>
         </BrowserRouter>
       </div>
-    </>
   );
 }
 
