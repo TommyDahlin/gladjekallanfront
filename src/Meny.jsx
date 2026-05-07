@@ -34,9 +34,9 @@ const Meny = () => {
         <div>
           <p className="today-menu-label">{t("menu.today.title")}</p>
           <p className="today-menu-hint">{t("menu.today.hint")}</p>
+          <span className="today-menu-price">{t("menu.today.price")}</span>
         </div>
         <div className="today-menu-meta">
-          <span className="today-menu-price">{t("menu.today.price")}</span>
           <div className="today-menu-social-links">
             <a
               href="https://www.instagram.com/gladjekallans_foodtruck/"
