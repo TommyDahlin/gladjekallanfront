@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <div className="app-container">
-        <BrowserRouter>
+        <BrowserRouter basename={import.meta.env.BASE_URL}>
           <Routes>
             <Route path="/" element={<Startpage />} />
             <Route path="/meny" element={<Meny />} />
