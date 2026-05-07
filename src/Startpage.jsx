@@ -112,6 +112,7 @@ const Startpage = () => {
                   <FaInstagram aria-hidden="true" />
                   <span>{t("startpage.socialInstagram")}</span>
                 </a>
+              </div>
                 <a
                   href="https://www.facebook.com/p/Gl%C3%A4djek%C3%A4llans-Foodtruck-100082006564608/"
                   target="_blank"
@@ -121,7 +122,6 @@ const Startpage = () => {
                   <FaFacebookF aria-hidden="true" />
                   <span>{t("startpage.socialFacebook")}</span>
                 </a>
-              </div>
             </div>
           </div>
           <section className="food-gallery" aria-label={t("startpage.galleryLabel")}>
