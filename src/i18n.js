@@ -15,10 +15,10 @@ const resources = {
         language: "Sprak",
       },
       footer: {
-        copyright: "© 2026 Gladjekallans foodtruck",
+        copyright: "© 2026 GlädjeKällanans foodtruck",
       },
       startpage: {
-        title: "Gladjekallans Foodtruck",
+        title: "GlädjeKällanans Foodtruck",
         subtitle: "Street food med hjarta, varme och smak.",
         intro:
           "Vi ar en familjeagd foodtruck som serverar mat med karlek och gladje. Vi finns i Goteborg och tar oss garna till erat <eventLink>event</eventLink> for att tillhandahalla era mat och catering behov.",
@@ -33,14 +33,14 @@ const resources = {
         socialFacebook: "Facebook",
         socialInstagram: "Instagram",
         galleryAlts: {
-          burgerPlate: "Burgertallrik fran Gladjekallans Foodtruck",
-          halloumiBurger: "Halloumiburgare fran Gladjekallans Foodtruck",
-          cheeseburger: "Cheeseburgare fran Gladjekallans Foodtruck",
-          chickenWrap: "Kycklingrulle fran Gladjekallans Foodtruck",
-          breakfast: "Frukosttallrik fran Gladjekallans Foodtruck",
-          sausageFries: "Korv med pommes fran Gladjekallans Foodtruck",
-          family: "Gladjekallans Foodtruck familj",
-          logo: "Gladjekallans Foodtruck logotyp",
+          burgerPlate: "Burgertallrik fran GlädjeKällanans Foodtruck",
+          halloumiBurger: "Halloumiburgare fran GlädjeKällanans Foodtruck",
+          cheeseburger: "Cheeseburgare fran GlädjeKällanans Foodtruck",
+          chickenWrap: "Kycklingrulle fran GlädjeKällanans Foodtruck",
+          breakfast: "Frukosttallrik fran GlädjeKällanans Foodtruck",
+          sausageFries: "Korv med pommes fran GlädjeKällanans Foodtruck",
+          family: "GlädjeKällanans Foodtruck familj",
+          logo: "GlädjeKällanans Foodtruck logotyp",
         },
       },
       menu: {
@@ -172,7 +172,7 @@ const resources = {
       },
       contact: {
         heading: "Kontakt",
-        primaryContact: "Gladjekallans foodtruck kontakt:",
+        primaryContact: "GlädjeKällanans foodtruck kontakt:",
         phoneLabel: "Telefon",
         emailLabel: "Email",
         location: "Foodtrucken star vid fiskeauktionen.",
@@ -225,10 +225,10 @@ const resources = {
         language: "Language",
       },
       footer: {
-        copyright: "© 2026 Gladjekallans foodtruck",
+        copyright: "© 2026 GlädjeKällanans foodtruck",
       },
       startpage: {
-        title: "Gladjekallans Foodtruck",
+        title: "GlädjeKällanans Foodtruck",
         subtitle: "Street food with heart, warmth, and flavor.",
         intro:
           "We are a family-owned food truck serving food with love and joy. We are based in Gothenburg and gladly come to your <eventLink>event</eventLink> to cover your food and catering needs.",
@@ -243,14 +243,14 @@ const resources = {
         socialFacebook: "Facebook",
         socialInstagram: "Instagram",
         galleryAlts: {
-          burgerPlate: "Burger plate from Gladjekallans Foodtruck",
-          halloumiBurger: "Halloumi burger from Gladjekallans Foodtruck",
-          cheeseburger: "Cheeseburger from Gladjekallans Foodtruck",
-          chickenWrap: "Chicken wrap from Gladjekallans Foodtruck",
-          breakfast: "Breakfast plate from Gladjekallans Foodtruck",
-          sausageFries: "Sausage and fries from Gladjekallans Foodtruck",
-          family: "Gladjekallans Foodtruck family",
-          logo: "Gladjekallans Foodtruck logo",
+          burgerPlate: "Burger plate from GlädjeKällanans Foodtruck",
+          halloumiBurger: "Halloumi burger from GlädjeKällanans Foodtruck",
+          cheeseburger: "Cheeseburger from GlädjeKällanans Foodtruck",
+          chickenWrap: "Chicken wrap from GlädjeKällanans Foodtruck",
+          breakfast: "Breakfast plate from GlädjeKällanans Foodtruck",
+          sausageFries: "Sausage and fries from GlädjeKällanans Foodtruck",
+          family: "GlädjeKällanans Foodtruck family",
+          logo: "GlädjeKällanans Foodtruck logo",
         },
       },
       menu: {
@@ -382,7 +382,7 @@ const resources = {
       },
       contact: {
         heading: "Contact",
-        primaryContact: "Gladjekallans foodtruck contact:",
+        primaryContact: "GlädjeKällanans foodtruck contact:",
         phoneLabel: "Phone",
         emailLabel: "Email",
         location: "The food truck is located at the fish auction.",
