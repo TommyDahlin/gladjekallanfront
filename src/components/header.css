@@ -1,36 +1,31 @@
 .header-container {
   display: flex;
   justify-content: space-between;
-  border-bottom: 2px solid #000;
-  border-radius: 12px;
-  width: 100%;
-  height: 100%;
-  background: black;
   align-items: center;
-  color: #000;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0);
-  z-index: 0;
-  max-height: 100px;
-}
-.Hamburger {
-  margin-right: 2rem;
-}
-.logo-image-header {
-  z-index: 1;
+  width: 100%;
+  height: 72px;
+  background: #111;
+  border-bottom: 2px solid var(--accent, #e8921a);
+  padding: 0 1.5rem;
+  position: sticky;
   top: 0;
-  max-width: 200px;
-  margin-top: 90px;
-  margin-right: 200px;
-  border-radius: 50%;
+  z-index: 100;
+  box-shadow: 0 2px 20px rgba(232, 146, 26, 0.15);
 }
 
-@media screen and (max-width: 844px) {
-  .header-container img {
-    align-items: end;
-    scale: 50%;
-    margin-left: 9rem;
-    margin-bottom: 4rem;
+.logo-image-header {
+  height: 56px;
+  width: auto;
+  border-radius: 50%;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .header-container {
+    height: 60px;
+    padding: 0 1rem;
+  }
+  .logo-image-header {
+    height: 44px;
   }
 }
