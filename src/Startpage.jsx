@@ -13,6 +13,7 @@ import SausageAndFries from "./assets/KorvOPommes.jpg";
 import { Link } from "react-router-dom";
 import { Trans, useTranslation } from "react-i18next";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
+import SEO from "./components/SEO";
 
 const galleryImages = [
   {
@@ -43,9 +44,42 @@ const galleryImages = [
 
 const Startpage = () => {
   const { t } = useTranslation();
+  const seoStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    name: "Glädjekällans Foodtruck",
+    description: t("seo.structuredData.description"),
+    url: "https://www.gkfoodtruck.se/",
+    areaServed: "Göteborg",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Göteborg",
+      addressCountry: "SE",
+    },
+    openingHoursSpecification: [
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Tuesday", "Wednesday", "Thursday", "Friday"],
+        opens: "05:00",
+        closes: "13:00",
+      },
+    ],
+    sameAs: [
+      "https://www.instagram.com/gladjekallans_foodtruck/",
+      "https://www.facebook.com/p/Gl%C3%A4djek%C3%A4llans-Foodtruck-100082006564608/",
+    ],
+    servesCuisine: ["Street Food", "Burgare", "Halloumi"],
+  };
 
   return (
     <>
+      <SEO
+        title={t("seo.pages.home.title")}
+        description={t("seo.pages.home.description")}
+        keywords={t("seo.pages.home.keywords")}
+        canonicalPath="/"
+        structuredData={seoStructuredData}
+      />
       <Header />
       <div className="startpage-container">
         <div className="startpage-welcome">

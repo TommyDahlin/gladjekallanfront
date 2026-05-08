@@ -197,6 +197,8 @@ const resources = {
         privateFrom: "Från 149 kr / person. 200 g högrevsburgare + 1 dryck.",
         privateMin: "Minsta antal: 25 personer.",
         privateVat: "Alla priser inkl. moms.",
+        imageAltBurgerMaking: "Hamburgare som tillagas på Glädjekällans Foodtruck",
+        imageAltBreakfast: "Frukost från Glädjekällans Foodtruck",
         formTitle: "Kontakta oss!",
         form: {
           firstName: "Förnamn",
@@ -210,6 +212,42 @@ const resources = {
       },
       about: {
         title: "Detta är om oss",
+      },
+      seo: {
+        structuredData: {
+          description:
+            "Familjeägd foodtruck i Göteborg med street food på lokala råvaror och svenskt kött.",
+        },
+        pages: {
+          home: {
+            title: "Foodtruck i Göteborg",
+            description:
+              "Glädjekällans Foodtruck serverar street food i Göteborg med lokala råvaror och svenskt kött från Slakthusets Köttbod.",
+            keywords:
+              "foodtruck göteborg, street food göteborg, lokala råvaror, svenskt kött, hamburgare göteborg, catering foodtruck",
+          },
+          menu: {
+            title: "Meny och priser",
+            description:
+              "Se Glädjekällans Foodtrucks meny med hamburgare, halloumi, kycklingrulle och dagens alternativ i Göteborg.",
+            keywords:
+              "foodtruck meny, hamburgare meny, halloumi burger, dagens meny göteborg, glutenfritt bröd",
+          },
+          contact: {
+            title: "Kontakt och events",
+            description:
+              "Kontakta Glädjekällans Foodtruck för företagsevent, privata event och catering i Göteborg.",
+            keywords:
+              "foodtruck kontakt, foodtruck event göteborg, företagsevent mat, catering göteborg",
+          },
+          about: {
+            title: "Om Glädjekällans Foodtruck",
+            description:
+              "Läs om Glädjekällans Foodtruck, vår familj och vårt fokus på lokala råvaror och svenskt kött.",
+            keywords:
+              "om oss foodtruck, familjeägd foodtruck, lokala råvaror göteborg, svenskt kött",
+          },
+        },
       },
     },
   },
@@ -238,8 +276,8 @@ const resources = {
         locationText: "The food truck is located at the fish auction.",
         galleryLabel: "Food gallery",
         mapAlt: "Map to the fish auction",
-        socialTitle: "Follow us for today\'s menu",
-        socialHint: "Today\'s menu is posted on Instagram and Facebook.",
+        socialTitle: "Follow us for today's menu",
+        socialHint: "Today's menu is posted on Instagram and Facebook.",
         socialFacebook: "Facebook",
         socialInstagram: "Instagram",
         galleryAlts: {
@@ -257,8 +295,8 @@ const resources = {
         heading: "Menu",
         glutenInfo: "All burgers and sausages can be prepared with gluten-free bread!",
         today: {
-          title: "Today\'s menu",
-          hint: "See today\'s option on our social channels.",
+          title: "Today's menu",
+          hint: "See today's option on our social channels.",
           price: "120 SEK",
         },
         sections: {
@@ -406,6 +444,8 @@ const resources = {
         privateFrom: "From 149 SEK / person. 200 g beef burger + 1 drink.",
         privateMin: "Minimum number: 25 people.",
         privateVat: "All prices include VAT.",
+        imageAltBurgerMaking: "Burger preparation at Glädjekällans Foodtruck",
+        imageAltBreakfast: "Breakfast served by Glädjekällans Foodtruck",
         formTitle: "Contact us!",
         form: {
           firstName: "First name",
@@ -419,6 +459,42 @@ const resources = {
       },
       about: {
         title: "About us",
+      },
+      seo: {
+        structuredData: {
+          description:
+            "Family-owned food truck in Gothenburg serving street food with local produce and Swedish meat.",
+        },
+        pages: {
+          home: {
+            title: "Food Truck in Gothenburg",
+            description:
+              "Glädjekällans Foodtruck serves street food in Gothenburg with local produce and Swedish meat from Slakthusets Kottbod.",
+            keywords:
+              "food truck gothenburg, street food gothenburg, local produce, swedish meat, burger gothenburg, food truck catering",
+          },
+          menu: {
+            title: "Menu and prices",
+            description:
+              "Explore Glädjekällans Foodtruck menu with burgers, halloumi, chicken wrap, and today's menu in Gothenburg.",
+            keywords:
+              "food truck menu, burger menu, halloumi burger, today's menu gothenburg, gluten free bread",
+          },
+          contact: {
+            title: "Contact and events",
+            description:
+              "Contact Glädjekällans Foodtruck for company events, private events, and catering in Gothenburg.",
+            keywords:
+              "food truck contact, food truck events gothenburg, company event catering, catering gothenburg",
+          },
+          about: {
+            title: "About Glädjekällans Foodtruck",
+            description:
+              "Learn about Glädjekällans Foodtruck, our family, and our focus on local produce and Swedish meat.",
+            keywords:
+              "about food truck, family-owned food truck, local produce gothenburg, swedish meat",
+          },
+        },
       },
     },
   },

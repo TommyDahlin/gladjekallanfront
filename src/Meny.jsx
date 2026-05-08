@@ -5,6 +5,7 @@ import kycklingrulle from "./assets/Kycklingrulle - Copy.jpg";
 import { useTranslation } from "react-i18next";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import "./Meny.css";
+import SEO from "./components/SEO";
 
 const Meny = () => {
   const { t, i18n } = useTranslation();
@@ -26,6 +27,12 @@ const Meny = () => {
 
   return (
     <>
+      <SEO
+        title={t("seo.pages.menu.title")}
+        description={t("seo.pages.menu.description")}
+        keywords={t("seo.pages.menu.keywords")}
+        canonicalPath="/meny"
+      />
       <Header />
       <h1 className="MENY">{t("menu.heading")}</h1>
       <h2>{t("menu.glutenInfo")}</h2>

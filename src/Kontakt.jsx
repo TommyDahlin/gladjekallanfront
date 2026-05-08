@@ -4,18 +4,25 @@ import BurgerMaking from "./assets/BurgerMaking.jpg";
 import Breakfast from "./assets/Frukost.jpg";
 import { useTranslation } from "react-i18next";
 import "./Kontakt.css";
+import SEO from "./components/SEO";
 
 const Kontakt = () => {
   const { t } = useTranslation();
 
   return (
     <>
+      <SEO
+        title={t("seo.pages.contact.title")}
+        description={t("seo.pages.contact.description")}
+        keywords={t("seo.pages.contact.keywords")}
+        canonicalPath="/kontakt"
+      />
       <Header />
       <div className="contactbody">
         <div className="contact-holder">
           <div className="contact-container">
             <div className="contact-image">
-              <img src={BurgerMaking} alt="burgermaking"></img>
+              <img src={BurgerMaking} alt={t("contact.imageAltBurgerMaking")}></img>
             </div>
             <div className="contact-container-text">
               <h1>{t("contact.heading")}</h1>
@@ -81,7 +88,7 @@ const Kontakt = () => {
               </p>
             </div>
             <div className="img-text">
-              <img src={Breakfast} alt="breakfast" className="breakfast"></img>
+              <img src={Breakfast} alt={t("contact.imageAltBreakfast")} className="breakfast"></img>
 
               <h2>{t("contact.privateTitle")}</h2>
               <p>{t("contact.privatePrices")}</p>
