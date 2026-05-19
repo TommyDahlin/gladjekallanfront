@@ -60,7 +60,7 @@ const SEO = ({ title, description, keywords, canonicalPath = "/", structuredData
   useEffect(() => {
     const locale = i18n.resolvedLanguage?.startsWith("en") ? "en" : "sv";
     const ogLocale = locale === "en" ? "en_US" : "sv_SE";
-    const baseUrl = `${window.location.origin}${import.meta.env.BASE_URL}`;
+    const baseUrl = `${globalThis.location.origin}${import.meta.env.BASE_URL}`;
     const canonicalUrl = new URL(canonicalPath.replace(/^\//, ""), baseUrl).href;
     const pageTitle = title ? `${title} | ${SITE_NAME}` : SITE_NAME;
 

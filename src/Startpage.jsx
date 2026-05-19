@@ -14,6 +14,7 @@ import { Link } from "react-router-dom";
 import { Trans, useTranslation } from "react-i18next";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import SEO from "./components/SEO";
+import InstagramFeed from "./components/InstagramFeed";
 
 const galleryImages = [
   {
@@ -147,6 +148,7 @@ const Startpage = () => {
                   <span>{t("startpage.socialInstagram")}</span>
                 </a>
               </div>
+              <InstagramFeed/>
                 <a
                   href="https://www.facebook.com/p/Gl%C3%A4djek%C3%A4llans-Foodtruck-100082006564608/"
                   target="_blank"
@@ -167,6 +169,7 @@ const Startpage = () => {
           </section>
         </div>
       </div>
+      <InstagramFeed />
       <Footer />
     </>
   );

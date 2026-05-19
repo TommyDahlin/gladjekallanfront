@@ -1,0 +1,14 @@
+.instagram-feed-section {
+  padding: 2.5rem 1.5rem;
+  background: #1a1206;
+  text-align: center;
+}
+
+.instagram-feed-title {
+  font-family: 'Oswald', system-ui, sans-serif;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 700;
+  color: #e8921a;
+  letter-spacing: 0.04em;
+  margin: 0 0 1.5rem;
+}

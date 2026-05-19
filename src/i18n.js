@@ -32,6 +32,7 @@ const resources = {
         socialHint: "Dagens meny publiceras på Instagram och Facebook.",
         socialFacebook: "Facebook",
         socialInstagram: "Instagram",
+        instagramTitle: "Senaste från Instagram",
         galleryAlts: {
           burgerPlate: "Burgertallrik från Glädjekällans Foodtruck",
           halloumiBurger: "Halloumiburgare från Glädjekällans Foodtruck",
@@ -280,6 +281,7 @@ const resources = {
         socialHint: "Today's menu is posted on Instagram and Facebook.",
         socialFacebook: "Facebook",
         socialInstagram: "Instagram",
+        instagramTitle: "Latest from Instagram",
         galleryAlts: {
           burgerPlate: "Burger plate from Glädjekällans Foodtruck",
           halloumiBurger: "Halloumi burger from Glädjekällans Foodtruck",
